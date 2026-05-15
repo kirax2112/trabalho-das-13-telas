@@ -1,0 +1,185 @@
+:root {
+ --space-xs: 0.25rem;
+ --space-sm: 0.5rem;
+ --space-md: 1rem;
+ --space-lg: 1.5rem;
+ --space-xl: 2rem;
+}
+.section {
+ padding: var(--space-lg);
+ margin-bottom: var(--space-xl);
+}
+header{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    }
+    .Box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}.box-a{
+    color: black;
+font-size: 18px;
+font-family: sans-serif;
+font-weight:lighter;
+padding: 25px;
+display: flex;
+gap: 30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.items{
+
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+}
+.navitems{
+    color: black;
+}
+.logo{
+    font-family: Arial;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+.box-b{
+    padding: 10px 30px 10px;
+    display: flex;
+    gap: 15px;
+}.box-b input[type="text"]{
+    width: 350px;
+    height: 36px;
+    border: 1px solid black;
+    border-radius: 9px;
+}.box-b input[type="submit"]{
+    font-size: 18px;
+    color: green;
+    width: 90px;
+    height: 36px;
+    padding: 2px 0 5px;
+    background-color: white;
+    border: 1px solid green;
+    border-radius: 9px;
+}
+.entrar{
+    display: flex;
+    align-items: center;
+    font-family:sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    color: green;
+    width: 70px;
+    height: 24px;
+    padding: 5px 1px 5px 20px;
+    margin: 3px 1px;
+    background-color: white;
+    border: 1px solid green;
+    border-radius: 9px;
+} a{
+    text-decoration: none;
+}.layout{
+    display: flex;
+    justify-content: flex-start;
+    gap: 100px;
+}
+.barra-lateral{
+    background-color: beige;
+    width: 400px;
+    margin-right: 150px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+.conteudo-principal{
+width: 600px;
+}
+
+.grade-stats {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+.card-mini {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    background: beige;
+}
+.secao-tabela {
+    border: 1px solid black;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.busca-interna {
+    width: 100%;
+    padding: 12px;
+    margin: 15px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.linha-cabecalho, .linha-corpo {
+    display: flex;
+    align-items: center;
+    padding: 15px 10px;
+    border-bottom: 1px solid #f9f9f9;
+}
+
+.linha-cabecalho {
+    font-weight: bold;
+    background-color: #fcfcfc;
+    border-bottom: 2px solid #eee;
+}
+
+/* Ajuste de colunas - use essas classes para alinhar qualquer tabela */
+.celula-titulo, .celula-usuario { flex: 2; }
+.celula-autor, .celula-email, .celula-status { flex: 1; }
+.celula-acoes { 
+    flex: 1; 
+    display: flex; 
+    gap: 5px; 
+    justify-content: flex-end; 
+}
+
+/* 6. BOTÕES */
+.btn-verde-vazado, .btn-aprovar, .btn-reprovar, .btn-acao {
+    padding: 6px 12px;
+    background: white;
+    border: 1px solid #2ecc71;
+    color: #2ecc71;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+footer{
+    width: 90%;
+    margin: 35px auto;
+}
+
+.menu-footer{
+    display: flex;
+    gap: 150px;
+    margin-bottom: 25px;
+}
+
+.item-footer{
+    border: 1px solid gray;
+    background-color: white;
+    padding: 14px 35px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.texto-footer{
+    text-align: center;
+    font-size: 13px;
+    color: black;
+}
